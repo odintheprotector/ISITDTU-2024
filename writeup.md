@@ -1,4 +1,4 @@
-Hi everyone, this time me and World Wide Flags joined ISITDTU CTF 2024 and luckily we got 16th rank. This is writeup for some Forensic challenges that I have solved. Let's go:
+Hi everyone, this time me and World Wide Flags joined ISITDTU CTF 2024 and luckily we got 16th rank. This is writeup for **swatted** which is one of the forensic challenge that I have solved. Let's go:
 
 ![image](https://github.com/user-attachments/assets/450a3fff-b2ed-4957-83cb-4578e65ccb6e)
 
