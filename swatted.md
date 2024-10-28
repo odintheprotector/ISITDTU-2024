@@ -57,16 +57,15 @@ CORRECT!
 Congrats! Here is your flag: ISITDTU{https://www.youtube.com/watch?v=H3d26v9TciI}
 ```
 
-I loved this challenge a lot so I will write this first. Our evidence is a VMDK file, normally you will use VMware to open it but because I don't have that one and I don't want to install 
-too so I used 7-zip to open it: 
+I loved this challenge a lot so I will write this first. Our evidence is a VMDK file, normally you will use VMware to open it but because I don't have that one and I don't want to install too so I used 7-zip to open it: 
 
 ![image](https://github.com/user-attachments/assets/80407226-3724-4c51-b774-e14e4ad70c3e)
 
-With the question 1, just find the hash inside **/etc/shaodw** and crack it by using **john**:
+With the question 1, just find the hash inside **/etc/shadow** and crack it by using **john**:
 
 ![image](https://github.com/user-attachments/assets/3bdb0cc8-f051-4ea1-b5ab-9c62fc6b288b)
 
-Open .bash_history, we will see that he did many things including install something named Wire:
+Open **.bash_history**, we will see that he did many things including install something named Wire:
 
 ![image](https://github.com/user-attachments/assets/70f575d1-798e-4094-95f9-a6499c8729cd)
 
@@ -88,7 +87,7 @@ After they had downloaded the file, I'm sure that the file is still be there, we
 
 ![image](https://github.com/user-attachments/assets/61898e4d-22ac-4696-b737-462657678894)
 
-For the last two challenges, I used ArsenalImageMounter and choose Recovery Files, you can recover the original credentials.txt:
+For the last two challenges, I used **Arsenal Image Mounter** and choose **Recovery Files**, you can recover the original credentials.txt:
 
 ![image](https://github.com/user-attachments/assets/05227025-68b8-4798-be94-7269e8fa3799)
 
